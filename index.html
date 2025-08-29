@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <!--- basic page needs
+    ================================================== -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>CestujSvetom</title>
+        <meta
+            name="description"
+            content="Vitajte na našom portáli o cestovaní a turistike! Tu nájdete originálne tipy, praktické rady pre samostatných aj skúsených cestovateľov a starostlivo zostavené itineráre pre plánovanie výletov. Náš tím expertov — Peter Novák, Martin Kováč a Ján Horváth — zdieľa skúsenosti, ako efektívne plánovať cesty, vyberať trasy a objavovať zaujímavé miesta. Objavte nové destinácie a získajte inšpirácie s užitočnými článkami a sprievodcami na tému cestovania a turistiky."
+        />
+
+        <script>
+            document.documentElement.classList.remove("no-js");
+            document.documentElement.classList.add("js");
+        </script>
+
+        <!-- CSS
+    ================================================== -->
+        <link rel="stylesheet" href="css/vendor.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <!-- favicons
+    ================================================== -->
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    </head>
+
+    <body id="top">
+        <!-- preloader
+    ================================================== -->
+        <div id="preloader">
+            <div id="loader" class="dots-fade">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- page wrap
+    ================================================== -->
+        <div id="page" class="s-pagewrap ss-home">
+            <!-- # site header 
+================================================== -->
+            <header class="s-header">
+                <div
+                    style="justify-content: space-between"
+                    class="row s-header__inner width-sixteen-col"
+                >
+                    <div class="s-header__block">
+                        <div class="s-header__logo">
+                            <a
+                                style="font-size: 30px; font-weight: bold"
+                                class="logo"
+                                href="index.html"
+                            >
+                                CestujSvetom
+                            </a>
+                        </div>
+
+                        <a class="s-header__menu-toggle" href="#0"
+                            ><span>Menu</span></a
+                        >
+                    </div>
+                    <!-- end s-header__block -->
+
+                    <nav class="s-header__nav">
+                        <ul class="s-header__menu-links">
+                            <li><a href="index.html">Domov</a></li>
+                            <li><a href="about.html">O nás</a></li>
+                            <li><a href="services.html">Služby</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Kontakt</a></li>
+                        </ul>
+                    </nav>
+                    <!-- end s-header__nav -->
+                </div>
+                <!-- end s-header__inner -->
+            </header>
+            <!-- end s-header -->
+
+            <!-- # site main content
+================================================== -->
+            <section id="content" class="s-content">
+                <!-- intro
+    ----------------------------------------------- -->
+                <section id="intro" class="s-intro">
+                    <div class="row s-intro__content width-sixteen-col">
+                        <div
+                            class="column lg-12 s-intro__content-inner grid-block"
+                        >
+                            <div class="s-intro__content-text">
+                                <div
+                                    class="s-intro__content-pretitle text-pretitle"
+                                >
+                                    Ahoj, som Peter Novák
+                                </div>
+                                <h1 class="s-intro__content-title">
+                                    Vitajte <br />
+                                    na našom portáli o <br />
+                                    cestovaní, tipy na trasy <br />
+                                    a užitočné rady <br />
+                                    pre turistov
+                                </h1>
+                            </div>
+
+                            <div class="s-intro__content-media">
+                                <div class="s-intro__content-media-inner">
+                                    <img
+                                        src="images/intro-bg.jpg"
+                                        srcset="
+                                            images/intro-bg.jpg    1x,
+                                            images/intro-bg@2x.jpg 2x
+                                        "
+                                        alt=""
+                                    />
+                                    <div class="lines">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="s-intro__scroll-down">
+                                <a href="#about" class="smoothscroll">
+                                    <div class="scroll-icon">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            width="36"
+                                            height="36"
+                                            fill="none"
+                                            stroke="#97b34a"
+                                            stroke-width="1"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <!--! Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons -->
+                                            <polyline
+                                                points="7 13 12 18 17 13"
+                                            ></polyline>
+                                            <line
+                                                x1="12"
+                                                y1="18"
+                                                x2="12"
+                                                y2="6"
+                                            ></line>
+                                        </svg>
+                                    </div>
+                                    <span>Posuňte dole</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end s-intro -->
+
+                <!-- about
+    ----------------------------------------------- -->
+                <section id="about" class="s-about target-section">
+                    <div class="row s-about__content width-sixteen-col">
+                        <div class="column grid-block grid-section-split">
+                            <img
+                                src="images/geometric_shape.svg"
+                                alt=""
+                                class="s-about__content-imgbg"
+                            />
+
+                            <div
+                                class="section-header grid-section-split__header"
+                            >
+                                <div class="text-pretitle">O projekte</div>
+                                <h2 class="text-display-title">
+                                    Všetko o cestovaní: trasy, tipy, inšpirácia
+                                </h2>
+                            </div>
+
+                            <div
+                                class="s-about__content-main grid-section-split__primary"
+                            >
+                                <p class="attention-getter">
+                                    <strong style="color: white"
+                                        >Kto sme?</strong
+                                    >
+                                    Sme tím nadšencov ako Peter Novák, Jana
+                                    Horváthová a Michal Kováč, ktorí navštívili
+                                    množstvo miest a chcú sa podeliť o svoje
+                                    skúsenosti a rady na cestovanie, plánovanie
+                                    trás a praktické tipy pre turistov.
+                                </p>
+
+                                <p class="attention-getter">
+                                    <strong style="color: white"
+                                        >Naše skúsenosti</strong
+                                    >
+                                    Skúmame destinácie, trasy a atrakcie, aby
+                                    sme vám priniesli aktuálne a inšpirujúce
+                                    tipy na cestovanie. Na našom webe nájdete
+                                    sprievodcov, zoznamy miest, ktoré sa oplatí
+                                    navštíviť, a rady, ako si užiť cestovanie
+                                    pohodlne a bezpečne.
+                                </p>
+
+                                <p class="attention-getter">
+                                    <strong style="color: white"
+                                        >Prečo to robíme?</strong
+                                    >
+                                    Veríme, že každá cesta je príležitosť
+                                    objavovať nové miesta, rozširovať obzory a
+                                    napĺňať život zážitkami. Naším cieľom je,
+                                    aby každý váš výlet bol nezabudnuteľný a
+                                    pohodlný, aj keď plánujete cestu sami.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end s-about -->
+
+                <!-- expertise
+    ----------------------------------------------- -->
+                <section id="expertise" class="s-expertise">
+                    <div class="row s-expertise__content width-sixteen-col">
+                        <div class="column xl-12 grid-block grid-section-split">
+                            <div
+                                class="section-header grid-section-split__header"
+                            >
+                                <div class="text-pretitle">Témy</div>
+                                <h2 class="text-display-title">
+                                    Hlavné oblasti nášho portálu
+                                </h2>
+
+                                <p class="lead">
+                                    Pomáhame cestovateľom naplánovať výlet: od
+                                    výberu trasy po balenie batožiny. Tu sú
+                                    hlavné oblasti, ktoré pokrývame.
+                                </p>
+                            </div>
+
+                            <div
+                                class="s-expertise__content-main grid-section-split__primary"
+                            >
+                                <div
+                                    class="grid-list-items list-items show-ctr"
+                                >
+                                    <div
+                                        class="grid-list-items__item list-items__item"
+                                    >
+                                        <div
+                                            class="grid-list-items__title list-items__item-header"
+                                        >
+                                            <h3 class="list-items__item-title">
+                                                Sprievodcovia a trasy
+                                            </h3>
+                                        </div>
+                                        <div
+                                            class="grid-list-items__text list-items__item-text"
+                                        >
+                                            <p>
+                                                Detailné a praktické
+                                                sprievodcovia s mapami, tipmi a
+                                                miestami, ktoré stojí za to
+                                                navštíviť. Každá trasa je
+                                                zostavená na základe osobných
+                                                skúseností a odporúčaní
+                                                cestovateľov.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="grid-list-items__item list-items__item"
+                                    >
+                                        <div
+                                            class="grid-list-items__title list-items__item-header"
+                                        >
+                                            <h3 class="list-items__item-title">
+                                                Tipy na organizáciu výletov
+                                            </h3>
+                                        </div>
+                                        <div
+                                            class="grid-list-items__text list-items__item-text"
+                                        >
+                                            <p>
+                                                Praktické rady: ako vybrať
+                                                dopravu, kde sa ubytovať, čo si
+                                                zobrať so sebou a ako cestovať
+                                                efektívne a bez problémov.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="grid-list-items__item list-items__item"
+                                    >
+                                        <div
+                                            class="grid-list-items__title list-items__item-header"
+                                        >
+                                            <h3 class="list-items__item-title">
+                                                Inšpirácie pre vlastné trasy
+                                            </h3>
+                                        </div>
+                                        <div
+                                            class="grid-list-items__text list-items__item-text"
+                                        >
+                                            <p>
+                                                Autorské trasy pre samostatných
+                                                cestovateľov: od víkendových
+                                                výletov po dlhšie dovolenky.
+                                                Vhodné pre začiatočníkov aj
+                                                skúsených cestovateľov.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="grid-list-items__item list-items__item"
+                                    >
+                                        <div
+                                            class="grid-list-items__title list-items__item-header"
+                                        >
+                                            <h3 class="list-items__item-title">
+                                                Inšpirácie a podpora
+                                            </h3>
+                                        </div>
+                                        <div
+                                            class="grid-list-items__text list-items__item-text"
+                                        >
+                                            <p>
+                                                Príbehy, recenzie, rozhovory a
+                                                fotogalérie, ktoré vás motivujú
+                                                objavovať nové miesta. Sme tu,
+                                                aby ste sa cítili sebaisto na
+                                                každom kroku vašej cesty.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end s-expertise__content-main -->
+                        </div>
+                    </div>
+                </section>
+                <!-- end s-expertise -->
+            </section>
+            <!-- s-content-->
+
+            <!-- # journal
+================================================== -->
+            <section id="journal" class="s-journal">
+                <div class="row s-journal__content width-sixteen-col">
+                    <div class="column xl-12 grid-block">
+                        <div class="grid-full section-header text-center">
+                            <div class="text-pretitle">Čerstvé články</div>
+                            <h2 class="text-display-title">
+                                Najnovšie materiály o cestovaní a trasách
+                            </h2>
+                        </div>
+                        <!-- end section-header -->
+
+                        <div
+                            class="grid-full s-journal__content-main grid-list-items"
+                        >
+                            <div class="grid-list-items__item blog-card">
+                                <div class="blog-card__header">
+                                    <img src="images/blog-1.jpg" alt="" />
+                                    <div class="blog-card__cat-links">
+                                        <a
+                                            >Samostatné cestovanie a nové
+                                            trasy</a
+                                        >
+                                    </div>
+                                    <h3 class="blog-card__title">
+                                        <a
+                                            >Ako si vybrať trasu pre prvú
+                                            samostatnú cestu</a
+                                        >
+                                    </h3>
+                                </div>
+                                <div class="blog-card__text">
+                                    <p>
+                                        Plánujete svoju prvú samostatnú cestu? V
+                                        článku Peter Novák ponúka krok za krokom
+                                        návod, ako vybrať optimálnu trasu, na čo
+                                        sa zamerať pri plánovaní a ako sa vyhnúť
+                                        chybám začiatočníka.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end blog-card -->
+
+                            <div class="grid-list-items__item blog-card">
+                                <div class="blog-card__header">
+                                    <img src="images/blog-2.jpg" alt="" />
+                                    <div class="blog-card__cat-links">
+                                        <a>Užitočné rady pre cestovateľov</a>
+                                    </div>
+                                    <h3 class="blog-card__title">
+                                        <a
+                                            >Top 7 cestovateľských tipov od
+                                            Martina Kováča</a
+                                        >
+                                    </h3>
+                                </div>
+                                <div class="blog-card__text">
+                                    <p>
+                                        Skúsený cestovateľ Martin Kováč zdieľa
+                                        jednoduché, ale efektívne rady, ktoré
+                                        spravia vašu cestu pohodlnou a
+                                        bezpečnou. Zistite, čo si zobrať so
+                                        sebou, ako správne zabaliť batožinu a
+                                        ako ušetriť na ubytovaní.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end blog-card -->
+
+                            <div class="grid-list-items__item blog-card">
+                                <div class="blog-card__header">
+                                    <img src="images/blog-3.jpg" alt="" />
+                                    <div class="blog-card__cat-links">
+                                        <a href="blog.html"
+                                            >Nápady na víkendové trasy</a
+                                        >
+                                    </div>
+                                    <h3 class="blog-card__title">
+                                        <a
+                                            >3 víkendové trasy od Jána
+                                            Horvátha</a
+                                        >
+                                    </h3>
+                                </div>
+                                <div class="blog-card__text">
+                                    <p>
+                                        Hľadáte inšpiráciu na víkendový výlet?
+                                        Ján Horváth pripravil tri trasy, ktoré
+                                        sa dajú absolvovať za dva dni. Príroda,
+                                        malebné mestá a zaujímavé lokality
+                                        čakajú na vás. Ideálna voľba pre krátky
+                                        oddych od každodennej rutiny.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end blog-card -->
+
+                            <div class="grid-list-items__item blog-card">
+                                <div class="blog-card__header">
+                                    <img src="images/blog-4.jpg" alt="" />
+                                    <div class="blog-card__cat-links">
+                                        <a>Cestovanie s deťmi</a>
+                                    </div>
+                                    <h3 class="blog-card__title">
+                                        <a
+                                            >Ako naplánovať trasu pri rodinnom
+                                            cestovaní</a
+                                        >
+                                    </h3>
+                                </div>
+                                <div class="blog-card__text">
+                                    <p>
+                                        Rodinné cestovanie si vyžaduje špeciálny
+                                        prístup. V článku vysvetlíme, ako vybrať
+                                        trasu vhodnú pre deti, ako plánovať
+                                        prestávky a čo si zobrať so sebou, aby
+                                        bola cesta pohodlná pre všetkých členov
+                                        rodiny.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end blog-card -->
+                        </div>
+                        <!-- end grid-list-items -->
+                    </div>
+                    <!-- end grid-block-->
+                </div>
+                <!-- end s-journal__content -->
+            </section>
+            <!-- end s-journal -->
+
+            <!-- # footer 
+        ================================================== -->
+            <footer class="s-footer">
+                <div class="row s-footer__content">
+                    <div
+                        class="column xl-3 lg-3 md-12 s-footer__block s-footer__about"
+                    >
+                        <h3>CestujSvetom</h3>
+                        <p>
+                            Vitajte v oficiálnom klube cestovateľov
+                            CestujSvetom! Sledujte nás a získajte aktuálne tipy,
+                            zaujímavé trasy a praktické rady pre vaše cestovanie
+                            a výlety.
+                        </p>
+                    </div>
+                    <div
+                        class="column xl-3 lg-3 md-12 s-footer__block s-footer__site-links"
+                    >
+                        <h3>Užitočné odkazy</h3>
+                        <ul class="link-list">
+                            <li><a href="index.html">Domov</a></li>
+                            <li><a href="about.html">O nás</a></li>
+                            <li>
+                                <a href="terms-of-use.html"
+                                    >Podmienky používania</a
+                                >
+                            </li>
+                            <li>
+                                <a href="privacy-policy.html"
+                                    >Zásady ochrany osobných údajov</a
+                                >
+                            </li>
+                            <li>
+                                <a href="cookie-policy.html"
+                                    >Zásady používania cookies</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="column xl-3 lg-3 md-12 tab-12 s-footer__block s-footer__newsletter"
+                    >
+                        <h3>Kontakt</h3>
+                        <p>Streženická cesta 1025, 020 01 Púchov, Slovensko</p>
+                        <p>+421902200035</p>
+                        <p>cestuj_svetom@gmail.com</p>
+                    </div>
+                    <div
+                        class="column xl-3 lg-3 md-12 tab-12 s-footer__block s-footer__newsletter"
+                    >
+                        <h3>Prihlásiť sa na novinky</h3>
+
+                        <div class="subscribe-form">
+                            <form method="get" action="thanks.html">
+                                <input
+                                    style="margin-bottom: 0px !important"
+                                    type="email"
+                                    name="EMAIL"
+                                    id="email"
+                                    class="u-fullwidth text-center"
+                                    placeholder="Váš Email"
+                                    required
+                                />
+
+                                <input
+                                    style="margin-top: 16px !important"
+                                    type="submit"
+                                    name="subscribe"
+                                    value="Prihlásiť sa"
+                                    class="btn btn--primary btn--small u-fullwidth"
+                                    id="submit"
+                                />
+                                <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cdb7b577e41181934ed6a6a44_9a91cfe7b3" tabindex="-1" value=""></div> -->
+                                <div class="mc-status"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- end s-footer -->
+        </div>
+        <!-- end page-wrap -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper">
+            <div class="sub-wrapper">
+                <div>
+                    <i class="bx bx-cookie"></i>
+                    <h2 style="text-align: center">
+                        Súhlas s používaním cookies
+                    </h2>
+                </div>
+
+                <div class="data">
+                    <p id="cookie-text">
+                        Táto stránka používa cookies na zlepšenie a
+                        personalizáciu vášho zážitku z prehliadania.
+                        <a href="cookie-policy.html">Viac informácií...</a>
+                    </p>
+                </div>
+
+                <div class="buttons">
+                    <button class="cookie-button" id="acceptBtn">Prijať</button>
+                    <button class="cookie-button" id="declineBtn">
+                        Odmietnuť
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Cookie banner -->
+
+        <!-- Java Script
+    ================================================== -->
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
